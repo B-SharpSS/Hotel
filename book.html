@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The High Castle Hotel - 7 star luxury">
+
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+  <link rel="stylesheet" href="pelle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <title>The High Castle Hotel</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>The High Castle</h1>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="book.html" class="active">Book </a>
+      <a href="find.html">Find</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+
+      <div class="container">
+        <h2 class="spoonkid"> Book a room!</h2>
+        <form action="tack.html">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="telephonnr">Telephon nr</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="telephonnr" name="telephonenr" placeholder="Your telephone number..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Your email..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="roomtype">Room type</label>
+            </div>
+            <div class="col-75">
+              <select id="roomtype" name="roomtype">
+                <option value="standard">Standard</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+        <div class="container2">
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>The High Castle Hotel &#124; Föreningsgatan 41 &#124; 211 50 Malmö &#124; 040-34 65 65</footer>
+</body>
+
+</html>
